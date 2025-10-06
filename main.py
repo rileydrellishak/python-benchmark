@@ -128,16 +128,24 @@ for key, value in my_family.items():
 '''SETS'''
 
 # Create a set and assign it to a variable
+activity_set = {'swimming', 'volleyball', 'ballet', 'baking'}
 
 # Find the length of the set
+len(activity_set)
 
 # Add a new element
+activity_set.add('tap')
 
 # Remove an element
+activity_set.remove('baking')
 
 # Check whether a element is in the set
+print('tap' in activity_set)
+print('baking' in activity_set)
 
 # Iterate over elements, printing each one out
+for item in activity_set:
+    print(item)
 
 '''NUMBERS'''
 
