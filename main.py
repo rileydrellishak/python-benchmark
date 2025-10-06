@@ -176,10 +176,23 @@ print(round(f))
 '''FUNCTIONS'''
 
 # Write a function that takes no arguments and call it
+def my_function():
+    return "my function has no arguments"
+
+print(my_function())
 
 # Write a function that takes one or more arguments and call it
+def my_function_has_an_argument(name):
+    return f"My function can say my name. Hi {name}!"
+
+print(my_function_has_an_argument('Riley'))
 
 # Write a function that returns a value. Call the function and store the return value in a variable
+def my_function_returns_a_value(value):
+    return value
+
+value = my_function_returns_a_value(3.14)
+print(value)
 
 '''LOOPS'''
 
