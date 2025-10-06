@@ -3,22 +3,34 @@
 '''LISTS'''
 
 # Create a list and assign it to a variable
+fruits = ['orange', 'raspberry', 'grape', 'apple', 'banana']
 
 # Find the length of the list
+len(fruits)
 
 # Append an item to the list
+fruits.append('strawberry')
 
 # Find the value of an item in the list a specific index
+third_item = fruits[2]
 
 # Set the value of an item at a specific index
+fruits[1] = 'cherry'
 
 # Check whether an item is in the list
+print('cherry' in fruits)
+print('raspberry' in fruits)
 
 # Sort the list
+fruits.sort()
 
 # Iterate over the list using range, printing out each element and the index
+for i in range(0, len(fruits)):
+    print(fruits[i])
 
 # Iterate over the list without using range, printing out each element
+for fruit in fruits:
+    print(fruit)
 
 '''TUPLES'''
 
