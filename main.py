@@ -197,8 +197,14 @@ print(value)
 '''LOOPS'''
 
 # Write a while loop
+while_number = 5
+while while_number > 0:
+    print(while_number)
+    while_number -= 1
 
 # Write a for loop that loops a set number of times (e.g. 10 times)
+for num in range(10):
+    print(num)
 
 '''CONDITIONALS'''
 
