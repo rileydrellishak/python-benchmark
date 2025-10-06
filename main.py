@@ -35,17 +35,26 @@ for fruit in fruits:
 '''TUPLES'''
 
 # Create a tuple and assign it to a variable
+veggies = 'broccoli', 'carrot', 'zucchini', 'pepper', 'celery'
 
 # Find the length of the tuple
+len(veggies)
 
 # Find the value of an item in the tuple a specific index
+second_item = veggies[1]
 
 # Check whether an item is in the tuple
+print('broccoli' in veggies)
+print('pumpkin' in veggies)
 
 # Iterate over the tuple using range, printing out each element and the index
+for i in range(0, len(veggies)):
+    print(veggies[i])
 
 # Iterate over the tuple without using range, printing out each element
-
+for veggie in veggies:
+    print(veggie)
+    
 '''STRINGS'''
 
 # Create a string and assign it to a variable
