@@ -150,17 +150,28 @@ for item in activity_set:
 '''NUMBERS'''
 
 # Add / subtract / multiply 2 numbers
+a = 8
+b = 5
+print(f"addition: {a + b}\nsubtraction: {a - b}\nmultiplication: {a * b}")
 
 # Divide two numbers using normal (float) division
+c = 10
+d = 2
+print(f"float division: {c / d}")
 
 # Divide two numbers using integer division
+print(f"integer division: {c // d}")
 
 # Find the modulo (remainder) of two numbers
+print(f"modulo division: remainder of {a} divided by {b} is {a % b}")
 
 # Check whether a number is even/odd
+print(8 % 2 == 0)
+print(5 % 2 == 0)
 
 # Round a float down to an int
-
+f = 3.141592653
+print(round(f))
 
 '''FUNCTIONS'''
 
