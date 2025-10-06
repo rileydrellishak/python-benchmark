@@ -54,29 +54,48 @@ for i in range(0, len(veggies)):
 # Iterate over the tuple without using range, printing out each element
 for veggie in veggies:
     print(veggie)
-    
+
 '''STRINGS'''
 
 # Create a string and assign it to a variable
+name = 'riley'
 
 # Find the length of the string
+len(name)
 
 # Find the value of an character in the string a specific index
+fifth_character = name[4]
+last_character = name[-1]
 
 # Check whether an item is in the string
+print('e' in name)
+print('q' in name)
 
 # Concatenate (add) two strings together
+name_2 = 'elizabeth'
+first_middle_name = name + " " + name_2
 
 # Create an f-string
+f"{name} is my first name!"
 
 # Split a string using .split
+split_this = "my name is riley"
+split_this.split(" ")
+print(split_this.split(" "))
 
 # Join a list of strings using .join
+string_1 = 'what'
+string_2 = 'name'
+print(' '.join([string_1, string_2]))
 
 # Iterate over the string using range, printing out each character and the index
+for i in range(0, len(name)):
+    print(name[i], i)
 
 # Iterate over the string without using range, printing out each character
-
+for character in name:
+    print(character)
+    
 '''DICTIONARIES'''
 
 # Create a dictionary and assign it to a variable
