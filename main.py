@@ -95,23 +95,36 @@ for i in range(0, len(name)):
 # Iterate over the string without using range, printing out each character
 for character in name:
     print(character)
-    
+
 '''DICTIONARIES'''
 
 # Create a dictionary and assign it to a variable
-
+my_family = {
+    'mom': 'Kerri',
+    'dad': 'Thomas',
+    'sister': 'Maille',
+    }
 # Find the length of the dictionary
+len(my_family)
 
 # Add a new key/value pair
+my_family['dog'] = 'Bixby'
 
 # Replace value for a given key
+my_family['dad'] = 'Tom'
 
 # Check whether a key is in the dictionary
+print('sister' in my_family.keys())
+print('brother' in my_family.keys())
 
 # Iterate over keys, printing each key
+for key in my_family.keys():
+    print(key)
 
 # Iterate over over key/value pairs using .items(), printing each key and value
-
+for key, value in my_family.items():
+    print(f"My {key}'s name is {value}")
+    
 '''SETS'''
 
 # Create a set and assign it to a variable
