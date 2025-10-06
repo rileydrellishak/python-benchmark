@@ -245,12 +245,24 @@ if guess <= number or guess >= number:
 '''NESTED DATA'''
 
 # Write a nested list (a list of lists) and assign it to a variable
+my_favorite_foods = [
+    ['banana','cherry','blueberry','raspberry', 'apple'],
+    ['carrot', 'broccoli', 'edamame', 'brussel sprouts'],
+    ['dark chocolate', 'nutella', 'reese\'s', 'ice cream'],
+    ['crispy chicken', 'cheeseburgers'],
+    ['iced coffee', 'diet coke']
+]
 
 # Print an item at a specific position in the data structure (e.g. the item at a given row and column). HINT: row comes first, column comes second
+print(my_favorite_foods[2][0]) # dark chocolate
 
 # Iterate through the nested data structure using range
-
+for i in range(len(my_favorite_foods)):
+    print(my_favorite_foods[i][-1])
 # Iterate through the nested data structure without using range 
+for category in my_favorite_foods:
+    for food in category:
+        print(food)
 
 '''REMINDER'''
 
