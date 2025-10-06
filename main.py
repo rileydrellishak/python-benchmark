@@ -209,8 +209,32 @@ for num in range(10):
 '''CONDITIONALS'''
 
 # Write an if/elif/else statement
+name = 'ew'
+sentence = 'The quick brown fox jumps over the lazy dog.'
+if name == 'Riley':
+    print(f"Hi {name}!")
+elif name in sentence:
+    print(sentence)
+else:
+    print('Womp womp')
 
 # Write conditionals for the following operators:
+number = 12
+guess = 20
+if guess == number:
+    print(f'very cool because {number} is {guess}')
+elif guess > number:
+    print(f'{guess} > {number}')
+elif guess < number:
+    print(f'{guess} < {number}')
+else:
+    print(f'what even is {guess}')
+
+if guess != number:
+    print('these are NOT equal')
+
+if guess <= number or guess >= number:
+    print('which am I')
 # ==
 # !=
 # <
